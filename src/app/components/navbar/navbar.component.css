@@ -1,0 +1,35 @@
+/* Style général pour la barre de navigation */
+.navbar {
+    background-color: #737a81; /* Couleur de fond de la barre de navigation */
+    padding: 15px;
+  }
+  
+  /* Style pour le titre "Vintage Cars" */
+  .navbar h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Style pour les liens dans la barre de navigation */
+  .navbar-nav .nav-item {
+    margin-right: 15px; /* Espacement entre les éléments de la barre de navigation */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #343a40; /* Couleur du texte des liens */
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff; /* Couleur du texte des liens au survol */
+  }
+  
+  /* Style pour le bouton de bascule sur les écrans plus petits */
+  .navbar-toggler-icon {
+    background-color: #007bff; /* Couleur de l'icône du bouton de bascule */
+  }
+  
+  /* Style pour la barre de navigation en mode collapse */
+  .collapse.navbar-collapse {
+    justify-content: flex-end; /* Aligner les éléments à droite en mode collapse */
+  }

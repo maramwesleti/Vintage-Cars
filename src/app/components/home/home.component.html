@@ -1,0 +1,20 @@
+<div class="card-container">
+
+  <div *ngFor="let produit of produits;let index = index;">
+    <div class="card">
+      <div class="card-img-container">
+      <!--<img class="card-img-top" src={{img[index]}} alt="image{{ produit.idProduit }}">-->
+      <img class="card-img-top" [src]="imageMapping[produit.idProduit]" alt="{{ produit.nomProduit }}">
+    </div>
+        <div class="card-body">
+          <h5 class="card-title">Product Name: {{ produit.nomProduit }}</h5>
+          <p class="card-text">Price: {{ produit.prixProduit }}</p>
+          <p class="card-text">Date of Creation: {{ produit.dateCreation | date }}</p>
+          <button type="button" class="btn btn-danger" (click)="delete(produit.idProduit)">Delete</button>
+          <button type="button" class="btn btn-warning" [routerLink]="['/update', produit.idProduit]">Edit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+

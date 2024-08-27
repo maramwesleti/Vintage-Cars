@@ -1,0 +1,30 @@
+<div class="container">
+    <br>
+    <div class="row">
+        <div class="col mt-5 nb-5">
+            <div class="col-md-8 mx-auto">
+  <form (ngSubmit)="updateproduit()">
+      <div class="from-group">
+          <label for="nomProduit">nomProduit</label>
+          <input type="text" name="nomProduit" class="test form-control" [(ngModel)]="produit.nomProduit" >
+        </div>
+      <div class="from-group">
+          <label for="prixProduit">prixProduit</label>
+          <input type="text" name="prixProduit"class="test form-control"[(ngModel)]="produit.prixProduit">
+        </div>
+      <div class="from-group">
+          <label for="dateCreation">dateCreation </label>
+          <input type="text" name="dateCreation"class="test form-control"[(ngModel)]="produit.dateCreation">
+        </div>
+      <div class="from-group">
+          <label for="categorie">categorie</label>
+          <input type="text" name="categorie"class="test form-control"[(ngModel)]="produit.nomCat">
+        </div>
+        <button type="submit" class="btn btn-dark -sm mt-4">UpDate</button>&nbsp;
+        <button class="btn btn-dark -sm mt-4 "[routerLink]="['home']">Back</button>
+  </form>
+  </div>
+  </div>
+  
+  </div>
+  </div>

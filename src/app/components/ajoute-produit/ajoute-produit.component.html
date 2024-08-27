@@ -1,0 +1,25 @@
+<form [formGroup]="formProduit" (ngSubmit)="submit()"></form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">nom_produit</label>
+      <input type="text" class="form-control" id="nomProduit" placeholder="nom_produit" formControlName="nomProduit">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">prix_produit</label>
+      <input type="number" class="form-control" id="prixProduit" placeholder="prix_produit" formControlName="prixProduit">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">date_creation</label>
+      <input type="date" class="form-control" id="dateCreation" placeholder="date_creation" formControlName="dateCreation">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">categorie_id_cat</label>
+      <select class="form-control" id="categorieIdCat" formControlName="categorieIdCat">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-outline-success">ajoute</button>
+  

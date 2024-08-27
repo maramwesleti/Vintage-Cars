@@ -1,0 +1,69 @@
+.card {
+    width: 300px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if the container is not wide enough */
+    justify-content: space-around; /* Adjust as needed (space-between, space-around, etc.) */
+  }
+  .card-img-container {
+    text-align: center;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .btn {
+    margin-top: 10px;
+  }
+  .btn-danger {
+    background-color: #010c2c; /* Bootstrap's danger color */
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-danger:hover {
+    background-color: #838384; /* Darker shade on hover */
+  }
+  
+  /* Styles for the "Edit" button */
+  .btn-warning {
+    background-color: #787262; /* Bootstrap's warning color */
+    color: #0b0c0d;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-warning:hover {
+    background-color: #95a7dc; /* Darker shade on hover */
+  }

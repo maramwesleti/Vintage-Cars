@@ -1,0 +1,53 @@
+*{
+   margin:0px;
+}
+
+nav{
+   background-color: rgb(34, 33, 29);
+   padding: 20px;
+   display: flex;
+
+  
+}
+h1{
+  color: rgb(126, 129, 22);
+}
+
+
+a{
+  text-decoration: none;
+  color: rgb(80, 80, 65);
+}
+a:hover{
+  transform: scale(1.1);
+  color: rgb(43, 37, 37);
+}
+
+li{
+  list-style: none;
+  padding: 5px;
+  font-size: 20px;
+}
+ul{
+  display: flex;
+
+}
+footer{
+ 
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  height: 350px;
+}
+.foot{
+  margin-top: 50px;
+}
+h2{
+  color: rgb(126, 129, 22);
+  padding: 15px;
+}
+
+.foot p {
+  padding: 15px;
+  color: rgb(80, 80, 65);
+}
